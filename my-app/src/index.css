@@ -1,21 +1,21 @@
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px 0px;
   width: 100%;
 }
-table{
+table {
   background-color: rgb(196, 191, 191);
   padding: 80px 30px;
 }
-tr{
+tr {
   padding: 0 10px;
 }
-td{
-  padding:10px 15px;
+td {
+  padding: 10px 15px;
 }
-.form{
+.form {
   padding: 15px 10px;
   display: flex;
   flex-direction: column;
@@ -24,18 +24,18 @@ td{
   color: rgb(199, 109, 7);
   margin-top: 20px;
 }
-.input{
+.input {
   display: flex;
   gap: 20px;
 }
-.input input ,select{
+.input input,
+select {
   padding: 10px;
-
 }
-.form input{
+.form input {
   padding: 12px;
 }
-.form button{
+.form button {
   width: 50%;
   padding: 15px;
   background-color: #0275d8;
@@ -44,8 +44,15 @@ td{
   text-transform: uppercase;
   outline: none;
   border-radius: 12px;
-
 }
-tbody{
+.dlt {
+  background-color: olive;
+  color: whitesmoke;
+  border-radius: 30px;
+  padding: 12px 25px;
+  border: none;
+  outline: none;
+}
+tbody {
   padding: 0 10px;
 }

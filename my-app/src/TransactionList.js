@@ -20,7 +20,7 @@ const TransactionList = ({ transactions, onDeleteTransaction }) => {
             <td>{transaction.description}</td>
             <td>${transaction.amount}</td>
             <td>
-              <button onClick={() => onDeleteTransaction(transaction.id)}>Delete</button>
+              <button className='dlt' onClick={() => onDeleteTransaction(transaction.id)}>Delete</button>
             </td>
           </tr>
         ))}
