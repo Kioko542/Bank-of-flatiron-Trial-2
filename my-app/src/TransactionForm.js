@@ -17,7 +17,7 @@ const TransactionForm = ({ addTransaction }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='form' onSubmit={handleSubmit}>
       <label>Date:</label>
       <input type="date" value={date} onChange={(e) => setDate(e.target.value)} required />
       <label>Description:</label>
